@@ -4,5 +4,6 @@
 //bolt # SB-E2FO
 
 async function startProgram() {
-	//Write code here
+	await scrollMatrixText('Start', {r: 66, g: 56, b: 255 }, 30, true)
 }
+
