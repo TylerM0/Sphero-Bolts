@@ -22,9 +22,10 @@ async function startProgram() {
 	await roll(180, 20, 3)
 	await roll(90, 25, 3)
 	setMainLed({ r:5, g:255, b:5})
-	await roll(0, 34, 2)
+	await roll(0, 35, 2)
 	await roll(310, 30,2)
 	await Sound.Effects.Bell.play(true)
 	await roll(0,80,2)
 	setMainLed({ r:250, g: 5, b:250})
 }
+
